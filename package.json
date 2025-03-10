@@ -1,0 +1,35 @@
+{
+  "name": "@sondreb/did-key",
+  "version": "0.0.1",
+  "description": "DID Key Method",
+  "keywords": [
+    "Decentralized",
+    "Identifier",
+    "DID",
+    "did:key",
+    "ed25519",
+    "secp256k1"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/run-tests.js"
+  },
+  "type": "module",
+  "exports": "./lib/index.js",
+  "files": [
+    "lib/**/*.js"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sondreb/did-key"
+  },
+  "dependencies": {
+    "@noble/curves": "^1.8.1",
+    "@noble/ed25519": "^2.2.3",
+    "@noble/secp256k1": "^2.2.3",
+    "base32.js": "^0.1.0",
+    "multibase": "^4.0.6"
+  }
+}
